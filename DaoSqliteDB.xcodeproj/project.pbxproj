@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ADBC9471CA95EF100FC14FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9461CA95EF100FC14FE /* main.m */; };
+		3ADBC94A1CA95EF100FC14FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9491CA95EF100FC14FE /* AppDelegate.m */; };
+		3ADBC94D1CA95EF100FC14FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC94C1CA95EF100FC14FE /* ViewController.m */; };
+		3ADBC9501CA95EF100FC14FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBC94E1CA95EF100FC14FE /* Main.storyboard */; };
+		3ADBC9521CA95EF100FC14FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBC9511CA95EF100FC14FE /* Assets.xcassets */; };
+		3ADBC9551CA95EF100FC14FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBC9531CA95EF100FC14FE /* LaunchScreen.storyboard */; };
+		3ADBC9601CA95EF200FC14FE /* DaoSqliteDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC95F1CA95EF200FC14FE /* DaoSqliteDBTests.m */; };
+		3ADBC96B1CA95EF200FC14FE /* DaoSqliteDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC96A1CA95EF200FC14FE /* DaoSqliteDBUITests.m */; };
+		3ADBC9841CA95FA600FC14FE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC97A1CA95FA600FC14FE /* FMDatabase.m */; };
+		3ADBC9851CA95FA600FC14FE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC97A1CA95FA600FC14FE /* FMDatabase.m */; };
+		3ADBC9861CA95FA600FC14FE /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC97A1CA95FA600FC14FE /* FMDatabase.m */; };
+		3ADBC9871CA95FA600FC14FE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC97C1CA95FA600FC14FE /* FMDatabaseAdditions.m */; };
+		3ADBC9881CA95FA600FC14FE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC97C1CA95FA600FC14FE /* FMDatabaseAdditions.m */; };
+		3ADBC9891CA95FA600FC14FE /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC97C1CA95FA600FC14FE /* FMDatabaseAdditions.m */; };
+		3ADBC98A1CA95FA600FC14FE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC97E1CA95FA600FC14FE /* FMDatabasePool.m */; };
+		3ADBC98B1CA95FA600FC14FE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC97E1CA95FA600FC14FE /* FMDatabasePool.m */; };
+		3ADBC98C1CA95FA600FC14FE /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC97E1CA95FA600FC14FE /* FMDatabasePool.m */; };
+		3ADBC98D1CA95FA600FC14FE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9801CA95FA600FC14FE /* FMDatabaseQueue.m */; };
+		3ADBC98E1CA95FA600FC14FE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9801CA95FA600FC14FE /* FMDatabaseQueue.m */; };
+		3ADBC98F1CA95FA600FC14FE /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9801CA95FA600FC14FE /* FMDatabaseQueue.m */; };
+		3ADBC9901CA95FA600FC14FE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9831CA95FA600FC14FE /* FMResultSet.m */; };
+		3ADBC9911CA95FA600FC14FE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9831CA95FA600FC14FE /* FMResultSet.m */; };
+		3ADBC9921CA95FA600FC14FE /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9831CA95FA600FC14FE /* FMResultSet.m */; };
+		3ADBC9941CA95FFE00FC14FE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADBC9931CA95FFE00FC14FE /* libsqlite3.tbd */; };
+		3ADBC9A31CA9626A00FC14FE /* DTDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9981CA9626A00FC14FE /* DTDatabaseQueue.m */; };
+		3ADBC9A41CA9626A00FC14FE /* DTDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9981CA9626A00FC14FE /* DTDatabaseQueue.m */; };
+		3ADBC9A51CA9626A00FC14FE /* DTDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9981CA9626A00FC14FE /* DTDatabaseQueue.m */; };
+		3ADBC9A61CA9626A00FC14FE /* DTBaseStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC99A1CA9626A00FC14FE /* DTBaseStore.m */; };
+		3ADBC9A71CA9626A00FC14FE /* DTBaseStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC99A1CA9626A00FC14FE /* DTBaseStore.m */; };
+		3ADBC9A81CA9626A00FC14FE /* DTBaseStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC99A1CA9626A00FC14FE /* DTBaseStore.m */; };
+		3ADBC9A91CA9626A00FC14FE /* DTUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC99C1CA9626A00FC14FE /* DTUserStore.m */; };
+		3ADBC9AA1CA9626A00FC14FE /* DTUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC99C1CA9626A00FC14FE /* DTUserStore.m */; };
+		3ADBC9AB1CA9626A00FC14FE /* DTUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC99C1CA9626A00FC14FE /* DTUserStore.m */; };
+		3ADBC9B21CA9626A00FC14FE /* DTDatabaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9A21CA9626A00FC14FE /* DTDatabaseConfiguration.m */; };
+		3ADBC9B31CA9626A00FC14FE /* DTDatabaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9A21CA9626A00FC14FE /* DTDatabaseConfiguration.m */; };
+		3ADBC9B41CA9626A00FC14FE /* DTDatabaseConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9A21CA9626A00FC14FE /* DTDatabaseConfiguration.m */; };
+		3ADBC9B81CA9646F00FC14FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADBC9B71CA9646F00FC14FE /* Foundation.framework */; };
+		3ADBC9BA1CA9647600FC14FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADBC9B91CA9647600FC14FE /* CoreGraphics.framework */; };
+		3ADBC9C11CA9655A00FC14FE /* DTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9BE1CA9655A00FC14FE /* DTBaseModel.m */; };
+		3ADBC9C21CA9655A00FC14FE /* DTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9BE1CA9655A00FC14FE /* DTBaseModel.m */; };
+		3ADBC9C31CA9655A00FC14FE /* DTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9BE1CA9655A00FC14FE /* DTBaseModel.m */; };
+		3ADBC9C41CA9655A00FC14FE /* DTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9C01CA9655A00FC14FE /* DTUser.m */; };
+		3ADBC9C51CA9655A00FC14FE /* DTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9C01CA9655A00FC14FE /* DTUser.m */; };
+		3ADBC9C61CA9655A00FC14FE /* DTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9C01CA9655A00FC14FE /* DTUser.m */; };
+		3ADBC9CA1CA98E1500FC14FE /* duotrac.sql in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBC9C81CA98E1500FC14FE /* duotrac.sql */; };
+		3ADBC9CB1CA98E1500FC14FE /* duotrac.sql in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBC9C81CA98E1500FC14FE /* duotrac.sql */; };
+		3ADBC9CC1CA98E1500FC14FE /* duotrac.sql in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBC9C81CA98E1500FC14FE /* duotrac.sql */; };
+		3ADBC9CD1CA98E1500FC14FE /* database.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBC9C91CA98E1500FC14FE /* database.plist */; };
+		3ADBC9CE1CA98E1500FC14FE /* database.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBC9C91CA98E1500FC14FE /* database.plist */; };
+		3ADBC9CF1CA98E1500FC14FE /* database.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3ADBC9C91CA98E1500FC14FE /* database.plist */; };
+		3ADBC9D21CA98E6800FC14FE /* DTSetttings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9D11CA98E6800FC14FE /* DTSetttings.m */; };
+		3ADBC9D31CA98E6800FC14FE /* DTSetttings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9D11CA98E6800FC14FE /* DTSetttings.m */; };
+		3ADBC9D41CA98E6800FC14FE /* DTSetttings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADBC9D11CA98E6800FC14FE /* DTSetttings.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ADBC95C1CA95EF100FC14FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADBC93A1CA95EF100FC14FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADBC9411CA95EF100FC14FE;
+			remoteInfo = DaoSqliteDB;
+		};
+		3ADBC9671CA95EF200FC14FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ADBC93A1CA95EF100FC14FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ADBC9411CA95EF100FC14FE;
+			remoteInfo = DaoSqliteDB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ADBC9421CA95EF100FC14FE /* DaoSqliteDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaoSqliteDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADBC9461CA95EF100FC14FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ADBC9481CA95EF100FC14FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3ADBC9491CA95EF100FC14FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3ADBC94B1CA95EF100FC14FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3ADBC94C1CA95EF100FC14FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3ADBC94F1CA95EF100FC14FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ADBC9511CA95EF100FC14FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ADBC9541CA95EF100FC14FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ADBC9561CA95EF100FC14FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADBC95B1CA95EF100FC14FE /* DaoSqliteDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaoSqliteDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADBC95F1CA95EF200FC14FE /* DaoSqliteDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaoSqliteDBTests.m; sourceTree = "<group>"; };
+		3ADBC9611CA95EF200FC14FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADBC9661CA95EF200FC14FE /* DaoSqliteDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaoSqliteDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADBC96A1CA95EF200FC14FE /* DaoSqliteDBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaoSqliteDBUITests.m; sourceTree = "<group>"; };
+		3ADBC96C1CA95EF200FC14FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADBC9791CA95FA600FC14FE /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		3ADBC97A1CA95FA600FC14FE /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		3ADBC97B1CA95FA600FC14FE /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3ADBC97C1CA95FA600FC14FE /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3ADBC97D1CA95FA600FC14FE /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		3ADBC97E1CA95FA600FC14FE /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		3ADBC97F1CA95FA600FC14FE /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3ADBC9801CA95FA600FC14FE /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3ADBC9811CA95FA600FC14FE /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		3ADBC9821CA95FA600FC14FE /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		3ADBC9831CA95FA600FC14FE /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		3ADBC9931CA95FFE00FC14FE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3ADBC9961CA9626A00FC14FE /* DTDatabaseQueries.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDatabaseQueries.h; sourceTree = "<group>"; };
+		3ADBC9971CA9626A00FC14FE /* DTDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDatabaseQueue.h; sourceTree = "<group>"; };
+		3ADBC9981CA9626A00FC14FE /* DTDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTDatabaseQueue.m; sourceTree = "<group>"; };
+		3ADBC9991CA9626A00FC14FE /* DTBaseStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTBaseStore.h; sourceTree = "<group>"; };
+		3ADBC99A1CA9626A00FC14FE /* DTBaseStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBaseStore.m; sourceTree = "<group>"; };
+		3ADBC99B1CA9626A00FC14FE /* DTUserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTUserStore.h; sourceTree = "<group>"; };
+		3ADBC99C1CA9626A00FC14FE /* DTUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTUserStore.m; sourceTree = "<group>"; };
+		3ADBC9A11CA9626A00FC14FE /* DTDatabaseConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTDatabaseConfiguration.h; sourceTree = "<group>"; };
+		3ADBC9A21CA9626A00FC14FE /* DTDatabaseConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTDatabaseConfiguration.m; sourceTree = "<group>"; };
+		3ADBC9B61CA962D800FC14FE /* DTSynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSynthesizeSingleton.h; sourceTree = "<group>"; };
+		3ADBC9B71CA9646F00FC14FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3ADBC9B91CA9647600FC14FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3ADBC9BC1CA9655A00FC14FE /* DTModelKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTModelKeys.h; sourceTree = "<group>"; };
+		3ADBC9BD1CA9655A00FC14FE /* DTBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTBaseModel.h; sourceTree = "<group>"; };
+		3ADBC9BE1CA9655A00FC14FE /* DTBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTBaseModel.m; sourceTree = "<group>"; };
+		3ADBC9BF1CA9655A00FC14FE /* DTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTUser.h; sourceTree = "<group>"; };
+		3ADBC9C01CA9655A00FC14FE /* DTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTUser.m; sourceTree = "<group>"; };
+		3ADBC9C81CA98E1500FC14FE /* duotrac.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = duotrac.sql; sourceTree = "<group>"; };
+		3ADBC9C91CA98E1500FC14FE /* database.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = database.plist; sourceTree = "<group>"; };
+		3ADBC9D01CA98E6800FC14FE /* DTSetttings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTSetttings.h; sourceTree = "<group>"; };
+		3ADBC9D11CA98E6800FC14FE /* DTSetttings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTSetttings.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ADBC93F1CA95EF100FC14FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBC9BA1CA9647600FC14FE /* CoreGraphics.framework in Frameworks */,
+				3ADBC9B81CA9646F00FC14FE /* Foundation.framework in Frameworks */,
+				3ADBC9941CA95FFE00FC14FE /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADBC9581CA95EF100FC14FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADBC9631CA95EF200FC14FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ADBC9391CA95EF100FC14FE = {
+			isa = PBXGroup;
+			children = (
+				3ADBC9B91CA9647600FC14FE /* CoreGraphics.framework */,
+				3ADBC9B71CA9646F00FC14FE /* Foundation.framework */,
+				3ADBC9931CA95FFE00FC14FE /* libsqlite3.tbd */,
+				3ADBC9441CA95EF100FC14FE /* DaoSqliteDB */,
+				3ADBC95E1CA95EF100FC14FE /* DaoSqliteDBTests */,
+				3ADBC9691CA95EF200FC14FE /* DaoSqliteDBUITests */,
+				3ADBC9431CA95EF100FC14FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ADBC9431CA95EF100FC14FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC9421CA95EF100FC14FE /* DaoSqliteDB.app */,
+				3ADBC95B1CA95EF100FC14FE /* DaoSqliteDBTests.xctest */,
+				3ADBC9661CA95EF200FC14FE /* DaoSqliteDBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ADBC9441CA95EF100FC14FE /* DaoSqliteDB */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC9C71CA98E0E00FC14FE /* DBFiles */,
+				3ADBC9BB1CA9654E00FC14FE /* DBModel */,
+				3ADBC9951CA9625900FC14FE /* DBStoreModel */,
+				3ADBC9781CA95F9600FC14FE /* FMDB */,
+				3ADBC9481CA95EF100FC14FE /* AppDelegate.h */,
+				3ADBC9491CA95EF100FC14FE /* AppDelegate.m */,
+				3ADBC94B1CA95EF100FC14FE /* ViewController.h */,
+				3ADBC94C1CA95EF100FC14FE /* ViewController.m */,
+				3ADBC94E1CA95EF100FC14FE /* Main.storyboard */,
+				3ADBC9511CA95EF100FC14FE /* Assets.xcassets */,
+				3ADBC9531CA95EF100FC14FE /* LaunchScreen.storyboard */,
+				3ADBC9561CA95EF100FC14FE /* Info.plist */,
+				3ADBC9451CA95EF100FC14FE /* Supporting Files */,
+			);
+			path = DaoSqliteDB;
+			sourceTree = "<group>";
+		};
+		3ADBC9451CA95EF100FC14FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC9461CA95EF100FC14FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ADBC95E1CA95EF100FC14FE /* DaoSqliteDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC95F1CA95EF200FC14FE /* DaoSqliteDBTests.m */,
+				3ADBC9611CA95EF200FC14FE /* Info.plist */,
+			);
+			path = DaoSqliteDBTests;
+			sourceTree = "<group>";
+		};
+		3ADBC9691CA95EF200FC14FE /* DaoSqliteDBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC96A1CA95EF200FC14FE /* DaoSqliteDBUITests.m */,
+				3ADBC96C1CA95EF200FC14FE /* Info.plist */,
+			);
+			path = DaoSqliteDBUITests;
+			sourceTree = "<group>";
+		};
+		3ADBC9781CA95F9600FC14FE /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC9791CA95FA600FC14FE /* FMDatabase.h */,
+				3ADBC97A1CA95FA600FC14FE /* FMDatabase.m */,
+				3ADBC97B1CA95FA600FC14FE /* FMDatabaseAdditions.h */,
+				3ADBC97C1CA95FA600FC14FE /* FMDatabaseAdditions.m */,
+				3ADBC97D1CA95FA600FC14FE /* FMDatabasePool.h */,
+				3ADBC97E1CA95FA600FC14FE /* FMDatabasePool.m */,
+				3ADBC97F1CA95FA600FC14FE /* FMDatabaseQueue.h */,
+				3ADBC9801CA95FA600FC14FE /* FMDatabaseQueue.m */,
+				3ADBC9811CA95FA600FC14FE /* FMDB.h */,
+				3ADBC9821CA95FA600FC14FE /* FMResultSet.h */,
+				3ADBC9831CA95FA600FC14FE /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		3ADBC9951CA9625900FC14FE /* DBStoreModel */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC9B51CA962CA00FC14FE /* Core */,
+				3ADBC9961CA9626A00FC14FE /* DTDatabaseQueries.h */,
+				3ADBC9971CA9626A00FC14FE /* DTDatabaseQueue.h */,
+				3ADBC9981CA9626A00FC14FE /* DTDatabaseQueue.m */,
+				3ADBC9991CA9626A00FC14FE /* DTBaseStore.h */,
+				3ADBC99A1CA9626A00FC14FE /* DTBaseStore.m */,
+				3ADBC99B1CA9626A00FC14FE /* DTUserStore.h */,
+				3ADBC99C1CA9626A00FC14FE /* DTUserStore.m */,
+				3ADBC9A11CA9626A00FC14FE /* DTDatabaseConfiguration.h */,
+				3ADBC9A21CA9626A00FC14FE /* DTDatabaseConfiguration.m */,
+			);
+			path = DBStoreModel;
+			sourceTree = "<group>";
+		};
+		3ADBC9B51CA962CA00FC14FE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC9B61CA962D800FC14FE /* DTSynthesizeSingleton.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3ADBC9BB1CA9654E00FC14FE /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC9D01CA98E6800FC14FE /* DTSetttings.h */,
+				3ADBC9D11CA98E6800FC14FE /* DTSetttings.m */,
+				3ADBC9BC1CA9655A00FC14FE /* DTModelKeys.h */,
+				3ADBC9BD1CA9655A00FC14FE /* DTBaseModel.h */,
+				3ADBC9BE1CA9655A00FC14FE /* DTBaseModel.m */,
+				3ADBC9BF1CA9655A00FC14FE /* DTUser.h */,
+				3ADBC9C01CA9655A00FC14FE /* DTUser.m */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		3ADBC9C71CA98E0E00FC14FE /* DBFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3ADBC9C81CA98E1500FC14FE /* duotrac.sql */,
+				3ADBC9C91CA98E1500FC14FE /* database.plist */,
+			);
+			path = DBFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ADBC9411CA95EF100FC14FE /* DaoSqliteDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADBC96F1CA95EF200FC14FE /* Build configuration list for PBXNativeTarget "DaoSqliteDB" */;
+			buildPhases = (
+				3ADBC93E1CA95EF100FC14FE /* Sources */,
+				3ADBC93F1CA95EF100FC14FE /* Frameworks */,
+				3ADBC9401CA95EF100FC14FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaoSqliteDB;
+			productName = DaoSqliteDB;
+			productReference = 3ADBC9421CA95EF100FC14FE /* DaoSqliteDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ADBC95A1CA95EF100FC14FE /* DaoSqliteDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADBC9721CA95EF200FC14FE /* Build configuration list for PBXNativeTarget "DaoSqliteDBTests" */;
+			buildPhases = (
+				3ADBC9571CA95EF100FC14FE /* Sources */,
+				3ADBC9581CA95EF100FC14FE /* Frameworks */,
+				3ADBC9591CA95EF100FC14FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADBC95D1CA95EF100FC14FE /* PBXTargetDependency */,
+			);
+			name = DaoSqliteDBTests;
+			productName = DaoSqliteDBTests;
+			productReference = 3ADBC95B1CA95EF100FC14FE /* DaoSqliteDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ADBC9651CA95EF200FC14FE /* DaoSqliteDBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ADBC9751CA95EF200FC14FE /* Build configuration list for PBXNativeTarget "DaoSqliteDBUITests" */;
+			buildPhases = (
+				3ADBC9621CA95EF200FC14FE /* Sources */,
+				3ADBC9631CA95EF200FC14FE /* Frameworks */,
+				3ADBC9641CA95EF200FC14FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ADBC9681CA95EF200FC14FE /* PBXTargetDependency */,
+			);
+			name = DaoSqliteDBUITests;
+			productName = DaoSqliteDBUITests;
+			productReference = 3ADBC9661CA95EF200FC14FE /* DaoSqliteDBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ADBC93A1CA95EF100FC14FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Chetu;
+				TargetAttributes = {
+					3ADBC9411CA95EF100FC14FE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3ADBC95A1CA95EF100FC14FE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3ADBC9411CA95EF100FC14FE;
+					};
+					3ADBC9651CA95EF200FC14FE = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3ADBC9411CA95EF100FC14FE;
+					};
+				};
+			};
+			buildConfigurationList = 3ADBC93D1CA95EF100FC14FE /* Build configuration list for PBXProject "DaoSqliteDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ADBC9391CA95EF100FC14FE;
+			productRefGroup = 3ADBC9431CA95EF100FC14FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ADBC9411CA95EF100FC14FE /* DaoSqliteDB */,
+				3ADBC95A1CA95EF100FC14FE /* DaoSqliteDBTests */,
+				3ADBC9651CA95EF200FC14FE /* DaoSqliteDBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ADBC9401CA95EF100FC14FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBC9551CA95EF100FC14FE /* LaunchScreen.storyboard in Resources */,
+				3ADBC9521CA95EF100FC14FE /* Assets.xcassets in Resources */,
+				3ADBC9501CA95EF100FC14FE /* Main.storyboard in Resources */,
+				3ADBC9CD1CA98E1500FC14FE /* database.plist in Resources */,
+				3ADBC9CA1CA98E1500FC14FE /* duotrac.sql in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADBC9591CA95EF100FC14FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBC9CB1CA98E1500FC14FE /* duotrac.sql in Resources */,
+				3ADBC9CE1CA98E1500FC14FE /* database.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADBC9641CA95EF200FC14FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBC9CC1CA98E1500FC14FE /* duotrac.sql in Resources */,
+				3ADBC9CF1CA98E1500FC14FE /* database.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ADBC93E1CA95EF100FC14FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBC9C41CA9655A00FC14FE /* DTUser.m in Sources */,
+				3ADBC9A31CA9626A00FC14FE /* DTDatabaseQueue.m in Sources */,
+				3ADBC94D1CA95EF100FC14FE /* ViewController.m in Sources */,
+				3ADBC9A61CA9626A00FC14FE /* DTBaseStore.m in Sources */,
+				3ADBC9C11CA9655A00FC14FE /* DTBaseModel.m in Sources */,
+				3ADBC98A1CA95FA600FC14FE /* FMDatabasePool.m in Sources */,
+				3ADBC94A1CA95EF100FC14FE /* AppDelegate.m in Sources */,
+				3ADBC98D1CA95FA600FC14FE /* FMDatabaseQueue.m in Sources */,
+				3ADBC9471CA95EF100FC14FE /* main.m in Sources */,
+				3ADBC9D21CA98E6800FC14FE /* DTSetttings.m in Sources */,
+				3ADBC9B21CA9626A00FC14FE /* DTDatabaseConfiguration.m in Sources */,
+				3ADBC9841CA95FA600FC14FE /* FMDatabase.m in Sources */,
+				3ADBC9A91CA9626A00FC14FE /* DTUserStore.m in Sources */,
+				3ADBC9901CA95FA600FC14FE /* FMResultSet.m in Sources */,
+				3ADBC9871CA95FA600FC14FE /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADBC9571CA95EF100FC14FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBC9AA1CA9626A00FC14FE /* DTUserStore.m in Sources */,
+				3ADBC9D31CA98E6800FC14FE /* DTSetttings.m in Sources */,
+				3ADBC9C21CA9655A00FC14FE /* DTBaseModel.m in Sources */,
+				3ADBC9B31CA9626A00FC14FE /* DTDatabaseConfiguration.m in Sources */,
+				3ADBC9A71CA9626A00FC14FE /* DTBaseStore.m in Sources */,
+				3ADBC9911CA95FA600FC14FE /* FMResultSet.m in Sources */,
+				3ADBC98E1CA95FA600FC14FE /* FMDatabaseQueue.m in Sources */,
+				3ADBC9601CA95EF200FC14FE /* DaoSqliteDBTests.m in Sources */,
+				3ADBC98B1CA95FA600FC14FE /* FMDatabasePool.m in Sources */,
+				3ADBC9851CA95FA600FC14FE /* FMDatabase.m in Sources */,
+				3ADBC9881CA95FA600FC14FE /* FMDatabaseAdditions.m in Sources */,
+				3ADBC9C51CA9655A00FC14FE /* DTUser.m in Sources */,
+				3ADBC9A41CA9626A00FC14FE /* DTDatabaseQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADBC9621CA95EF200FC14FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ADBC9AB1CA9626A00FC14FE /* DTUserStore.m in Sources */,
+				3ADBC9D41CA98E6800FC14FE /* DTSetttings.m in Sources */,
+				3ADBC9C31CA9655A00FC14FE /* DTBaseModel.m in Sources */,
+				3ADBC9B41CA9626A00FC14FE /* DTDatabaseConfiguration.m in Sources */,
+				3ADBC9A81CA9626A00FC14FE /* DTBaseStore.m in Sources */,
+				3ADBC9921CA95FA600FC14FE /* FMResultSet.m in Sources */,
+				3ADBC98F1CA95FA600FC14FE /* FMDatabaseQueue.m in Sources */,
+				3ADBC96B1CA95EF200FC14FE /* DaoSqliteDBUITests.m in Sources */,
+				3ADBC98C1CA95FA600FC14FE /* FMDatabasePool.m in Sources */,
+				3ADBC9861CA95FA600FC14FE /* FMDatabase.m in Sources */,
+				3ADBC9891CA95FA600FC14FE /* FMDatabaseAdditions.m in Sources */,
+				3ADBC9C61CA9655A00FC14FE /* DTUser.m in Sources */,
+				3ADBC9A51CA9626A00FC14FE /* DTDatabaseQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ADBC95D1CA95EF100FC14FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ADBC9411CA95EF100FC14FE /* DaoSqliteDB */;
+			targetProxy = 3ADBC95C1CA95EF100FC14FE /* PBXContainerItemProxy */;
+		};
+		3ADBC9681CA95EF200FC14FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ADBC9411CA95EF100FC14FE /* DaoSqliteDB */;
+			targetProxy = 3ADBC9671CA95EF200FC14FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ADBC94E1CA95EF100FC14FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADBC94F1CA95EF100FC14FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ADBC9531CA95EF100FC14FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ADBC9541CA95EF100FC14FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ADBC96D1CA95EF200FC14FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ADBC96E1CA95EF200FC14FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ADBC9701CA95EF200FC14FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DaoSqliteDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.DaoSqliteDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ADBC9711CA95EF200FC14FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DaoSqliteDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.DaoSqliteDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3ADBC9731CA95EF200FC14FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaoSqliteDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.DaoSqliteDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaoSqliteDB.app/DaoSqliteDB";
+			};
+			name = Debug;
+		};
+		3ADBC9741CA95EF200FC14FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DaoSqliteDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.DaoSqliteDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaoSqliteDB.app/DaoSqliteDB";
+			};
+			name = Release;
+		};
+		3ADBC9761CA95EF200FC14FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DaoSqliteDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.DaoSqliteDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DaoSqliteDB;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3ADBC9771CA95EF200FC14FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DaoSqliteDBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.DaoSqliteDBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DaoSqliteDB;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ADBC93D1CA95EF100FC14FE /* Build configuration list for PBXProject "DaoSqliteDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADBC96D1CA95EF200FC14FE /* Debug */,
+				3ADBC96E1CA95EF200FC14FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ADBC96F1CA95EF200FC14FE /* Build configuration list for PBXNativeTarget "DaoSqliteDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADBC9701CA95EF200FC14FE /* Debug */,
+				3ADBC9711CA95EF200FC14FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ADBC9721CA95EF200FC14FE /* Build configuration list for PBXNativeTarget "DaoSqliteDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADBC9731CA95EF200FC14FE /* Debug */,
+				3ADBC9741CA95EF200FC14FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ADBC9751CA95EF200FC14FE /* Build configuration list for PBXNativeTarget "DaoSqliteDBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ADBC9761CA95EF200FC14FE /* Debug */,
+				3ADBC9771CA95EF200FC14FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ADBC93A1CA95EF100FC14FE /* Project object */;
+}
